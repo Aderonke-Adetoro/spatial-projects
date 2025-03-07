@@ -2,7 +2,7 @@
 Chronicles of my evolution as a data scientist - from humble beginnings to growing expertise. Here you'll find:
 
 - **Code Evolution**: Witness my progression from simple scripts to complex algorithms
-- **Data Exploration**: Join me as I investigate datasets that sparked my curiosity and revealed unexpected insights
+- **Data Exploration**: Join me as I investigate datasets that spark my curiosity and reveal unexpected insights
 - **Visualization Mastery**: Explore my journey toward creating compelling and informative visualizations that communicate complex findings with clarity
 - **Programming Challenges**: See the comprehensive scripts that pushed my technical abilities to new heights
 - **Revitalized Projects**: Discover how I've breathed new life into old spatial analyses, applying fresh perspectives and modern techniques
