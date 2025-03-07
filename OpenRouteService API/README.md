@@ -1,43 +1,8 @@
 # A program that calculates the distance between a city and three other locations using the OpenRouteService API.
-ORS_API_KEY = "please insert your OpenRouteService API KEY here"
+As students we've mainly calculated distances using a set mathematical formula or on software using a ruler to draw a line and visualise the distance.
+But what if you want to do this for 10 locations, or hundreds of locations? how efficient do you thibk the manual approach is? Not very efficient, yeah? I thought so too.
+That is why i wrote this script, for you and I to automate distance calculation using programming language and Application programming Interface (API) that still employs the use of our coordinates to generate the distance between places for us within seconds. Sounds cool. yeah? I felt the same way when i wrote the script and it worked.
 
-import requests #JSON request module to access an online API url
-import time   #API rate-limiting module
-#define function for the distance to be calculated
-def get_driving_distance(origin, destination): #function definition
-    #define parameter  
-    parameters = {
-    "api_key": ORS_API_KEY,
-    "start": f"{origin[1]},{origin[0]}",
-    "end": f"{destination[1]},{destination[0]}",      
-}
-#create response variable with the url of the ORS direction service
-    response= requests.get("https://api.openrouteservice.org/v2/directions/driving-car", params=parameters)
-#conditional statement for API REQUEST STATUS
-    if response.status_code == 200:
-        print ("Request Successful!")
-        data = response.json() #parsing the json data as python objects
-        try: #Error handling 
-            summary = data["features"][0]["properties"]["summary"] #extracting the distancce and duration from the data dictionary
-            distance = summary["distance"]
-            distance = distance/1000 #converting the distance to kilometres
-            time.sleep(5) #condition to iterate through the sleep after 5seconds to beat API limit
-            return distance
-        except KeyError as e:
-            print(f"KeyError: {e} - The key was not found in the response.")
-            print("Response Content:", data)
-            return None
-        
-    else: #condition for incorrect/expired API/URL
-        print ("Request Failed!")
-        return None
-munich = (48.1351, 11.5820)  #origin coordinate definition in (latitude, longitude)
-destinations= {"berlin":(52.5200, 13.4050),
-       "Lincolnshire":(53.2179, 0.2000),
-       "Nigeria":(7.3683, 4.1962),
-      }    #definition of the coordinates of the destinations using dictionary
-#iterating through the three destinations
-for location, coordinates in destinations.items(): #condition for iteration
-    distance = get_driving_distance(munich, coordinates) #Function called and assigned to variable distance
-    if distance is not None:
-        print(f"Distance from Munich to {location} is {distance} km") #printing result for a successful request
+I hope you'll be able to replicate this for locations of your choice.
+Edit the destination dictionary with as many cordinates as you want, you can have it. 
+I can wait to learn about even more efficient ways to do this, I know there's one that i'm still alien to out there. I'll look for it and come back to show you when i understand it, until then, have fun working with and learning from my little script.
