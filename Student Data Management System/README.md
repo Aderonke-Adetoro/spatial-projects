@@ -1,4 +1,4 @@
-#STUDENT GRADE MANAGEMENT SYSTEM
+# STUDENT GRADE MANAGEMENT SYSTEM
 **Functions**
 - To accept student data- Name, Subject grades
 - Calculate their Average and assign Final Grade based on the average grade
@@ -18,6 +18,7 @@
 - Conversion of nested dictionary to list of dictionaries for file handling as accepted by **csv_DictWriter**
 
 **The builtins module was imported to use the builtins.open in order to bypass ipython restriction(this is due to using jupyter notebook, an interactive working environment)**
+
 **Note** 
 - Import your module in order of use (Control Flow)
 - Pay attention to your variable names; remember python is case sensitive
