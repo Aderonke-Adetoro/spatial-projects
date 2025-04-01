@@ -2,20 +2,20 @@
 
 ## Project Overview
 This project leverages advanced geospatial technology and data analysis techniques to analyse and visualise Los Angeles crime data between 2020 and 2024, focusing on identifying patterns, hotspots, and trends in crime. Using Python libraries, including Pandas, Numpy, and the datetime module, the project processed a substantial dataset of at least 110,000 crime records, transforming it into actionable intelligence. Through carefully mapping crime occurrences with geographic coordinates, descriptions, and timestamps, the project delivers meaningful insights into public safety concerns. The visualisation uses an interactive mapping platform integrated with ArcGIS technology, allowing users to dynamically explore crime statistics through visually appealing heatmaps, charts, and pop-ups.
-**Los Angeles Crime Web-app Link** - [Los Angeles Crime Web-App](https://shorturl.at/uOaJb)
+[Los Angeles Crime Web-App](https://shorturl.at/uOaJb)
 
 ## Project Aim
 The project aims to bridge the gap between raw crime data and meaningful interpretation, empowering the public to understand crime dynamics better, enabling proactive safety measures and fostering informed decision-making. The visualisation transforms complex and static datasets into actionable information that both policymakers and the general public can access intuitively.
 
 ## Project Objectives
-•	Acquire raw Los Angeles crime data from 2020 to 2024 as a comma-delimited (CSV) file.
-•	Process and read crime data using Python libraries/modules, including pandas, numpy, and datetime.
-•	Extract and rename essential columns from the Los Angeles Crime data.
-•	Transform crime data through cleaning, grouping, and merging operations.
-•	Reduce the dataset from 110,000 rows and 27 columns to approximately 77,860 rows and 6 columns.
-•	Generate a structured CSV output for visualisation purposes.
-•	Construct feature layers in ArcGIS Online for spatial analysis and visualisation.
-•	Deploy an interactive web application using ArcGIS Instant Apps for enhanced user experience and accessibility.
+- Acquire raw Los Angeles crime data from 2020 to 2024 as a comma-delimited (CSV) file.
+- Process and read crime data using Python libraries/modules, including pandas, numpy, and datetime.
+- Extract and rename essential columns from the Los Angeles Crime data.
+- Transform crime data through cleaning, grouping, and merging operations.
+- Reduce the dataset from 110,000 rows and 27 columns to approximately 77,860 rows and 6 columns.
+- Generate a structured CSV output for visualisation purposes.
+- Construct feature layers in ArcGIS Online for spatial analysis and visualisation.
+- Deploy an interactive web application using ArcGIS Instant Apps for enhanced user experience and accessibility.
 
 ## Methodology
 ### **Data Preprocessing Workflow**
@@ -77,12 +77,15 @@ The application was designed with multiple users in mind:
 -	Incorporation of real-time data feeds for more timely insights
 
 **Conclusion**
+
 This project demonstrates the transformative potential of geospatial technology and data science in addressing public safety challenges. Converting raw crime data into an interactive, transparent, and engaging platform fosters informed decision-making at both institutional and individual levels. The identification of vehicle theft as the predominant crime type, the recognition of midday as peak crime time, and the mapping of Downtown LA as a significant hotspot provide actionable intelligence for targeted interventions. This approach exemplifies how data storytelling can address pressing societal concerns while respecting ethical considerations around sensitive information, ultimately contributing to safer communities and enhanced public trust.
 
 ## Reference
-1 Data Source: Kaggle Dataset
-2 Author: Aderonke Adetoro
-3 Software used: 
+Data Source: Kaggle Dataset
+
+Author: Aderonke Adetoro
+
+Software used: 
    - Jupyter Notebook for scripting
    - ArcGIS Online
    - ArcGIS Instant App
