@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project leverages advanced geospatial technology and data analysis techniques to analyse and visualise Los Angeles crime data between 2020 and 2024, focusing on identifying patterns, hotspots, and trends in crime. Using Python libraries, including Pandas, Numpy, and the datetime module, the project processed a substantial dataset of at least 110,000 crime records, transforming it into actionable intelligence. Through carefully mapping crime occurrences with geographic coordinates, descriptions, and timestamps, the project delivers meaningful insights into public safety concerns. The visualisation uses an interactive mapping platform integrated with ArcGIS technology, allowing users to dynamically explore crime statistics through visually appealing heatmaps, charts, and pop-ups.
-**Los Angeles Crime Web-app Link** - [text](https://shorturl.at/uOaJb)
+**Los Angeles Crime Web-app Link** - [Los Angeles Crime Web-App](https://shorturl.at/uOaJb)
 
 ## Project Aim
 The project aims to bridge the gap between raw crime data and meaningful interpretation, empowering the public to understand crime dynamics better, enabling proactive safety measures and fostering informed decision-making. The visualisation transforms complex and static datasets into actionable information that both policymakers and the general public can access intuitively.
@@ -31,7 +31,7 @@ The project aims to bridge the gap between raw crime data and meaningful interpr
     - Temporal aggregation to determine crime frequency distribution by hour
 5.	Merging of grouped datasets to create a comprehensive analytical foundation containing coordinates, crime types, temporal patterns, and frequency metrics
 
-**Link to Script**- [text](<Los Angeles Crime Data Cleaning Script.py>)
+**Link to Script**- [Los Angeles Crime Data Cleaning python script](<Los Angeles Crime Data Cleaning Script.py>)
 
 ### **Visualisation Workflow**
 1.	Import of cleaned dataset (77,000 records) to ArcGIS Online as a CSV feature layer
@@ -44,7 +44,7 @@ The project aims to bridge the gap between raw crime data and meaningful interpr
 5.	Configuration of interactive pop-ups to display detailed information on user interaction
 6.	Integration of all components into ArcGIS Instant Apps to create a cohesive interactive experience
 
-**Los Angeles Crime Map Visualisation**- ![alt text](<LA Crime.jpg>)
+**Los Angeles Crime Map Visualisation**- ![Los Angeles Crime Map](<Los Angeles Crime Map.jpg>)
 
 ## **Key Findings**
  - Vehicle theft emerged as the most prevalent crime type across Los Angeles during the study period
@@ -63,6 +63,7 @@ The project aims to bridge the gap between raw crime data and meaningful interpr
 >>> The interactive interface fosters community awareness by making crime data accessible to diverse users. Intuitive search functionality, togglable layers, and    interactive charts enable visitors, potential residents, and current community members to make informed decisions about safety precautions in different neighbourhoods of Los Angeles.
 
 **User Experience Considerations**
+
 The application was designed with multiple users in mind:
 - Community members, visitors and tourists: Simple interface with search functionality to locate specific neighbourhoods
 - Law enforcement: Detailed hotspot analysis and temporal pattern visualisation for resource allocation
@@ -79,9 +80,9 @@ The application was designed with multiple users in mind:
 This project demonstrates the transformative potential of geospatial technology and data science in addressing public safety challenges. Converting raw crime data into an interactive, transparent, and engaging platform fosters informed decision-making at both institutional and individual levels. The identification of vehicle theft as the predominant crime type, the recognition of midday as peak crime time, and the mapping of Downtown LA as a significant hotspot provide actionable intelligence for targeted interventions. This approach exemplifies how data storytelling can address pressing societal concerns while respecting ethical considerations around sensitive information, ultimately contributing to safer communities and enhanced public trust.
 
 ## Reference
-Data Source: Kaggle Dataset
-Author: Aderonke Adetoro
-Software used: 
+1 Data Source: Kaggle Dataset
+2 Author: Aderonke Adetoro
+3 Software used: 
    - Jupyter Notebook for scripting
    - ArcGIS Online
    - ArcGIS Instant App
