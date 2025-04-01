@@ -76,7 +76,7 @@ The application was designed with multiple users in mind:
 -	Expansion to include comparative analysis with other metropolitan areas
 -	Incorporation of real-time data feeds for more timely insights
 
-**Conclusion**
+## **Conclusion**
 
 This project demonstrates the transformative potential of geospatial technology and data science in addressing public safety challenges. Converting raw crime data into an interactive, transparent, and engaging platform fosters informed decision-making at both institutional and individual levels. The identification of vehicle theft as the predominant crime type, the recognition of midday as peak crime time, and the mapping of Downtown LA as a significant hotspot provide actionable intelligence for targeted interventions. This approach exemplifies how data storytelling can address pressing societal concerns while respecting ethical considerations around sensitive information, ultimately contributing to safer communities and enhanced public trust.
 
@@ -91,4 +91,6 @@ Software used:
    - ArcGIS Instant App
    - VS Code
    - Microsoft Excel
+
+Data Processing and visualisation done by Author
    

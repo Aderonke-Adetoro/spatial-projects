@@ -110,7 +110,7 @@ def menu_interface():  # function created
                     student_csv_writer.writeheader()
                 #converting a nested dictionary to a list of dictionaries, which is the only format that the\ 
                 #csv.DictWriter can handle
-                csv_data = []      #A empty list to collect a list of dictionary values
+                csv_data = []      #An empty list to collect a list of dictionary values
                 for student_name, data in students.items(): #iterating through the main dictionary with student data
                     row = {"student_name": student_name} #creating a new dictionary with student_name as stand-alone\
                     #key:value pair
